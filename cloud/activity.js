@@ -1,4 +1,4 @@
- rse.Cloud.beforeSave('Activity', function(request, response) {
+ Parse.Cloud.beforeSave('Activity', function(request, response) {
   var currentUser = request.user;
   var objectUser = request.object.get('fromUser');
 
