@@ -1,6 +1,6 @@
-//require('cloud/installation.js');
-//require('cloud/activity.js');
-//require('cloud/photo.js');
+require('./installation.js');
+require('./activity.js');
+require('./photo.js');
 
 Parse.Cloud.define('hello', function(req, res) {
   res.success('Hi');
